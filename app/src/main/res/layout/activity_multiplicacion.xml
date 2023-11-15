@@ -29,7 +29,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/num"
+        android:id="@+id/numM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -51,7 +51,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/num3"
+        android:id="@+id/numM2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -63,7 +63,7 @@
         android:selectAllOnFocus="false" />
 
     <TextView
-        android:id="@+id/lblresultado2"
+        android:id="@+id/lblresultadoM"
         android:layout_width="164dp"
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
