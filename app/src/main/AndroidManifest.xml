@@ -25,14 +25,6 @@
             android:name=".resta"
             android:exported="false" />
         <activity
-            android:name=".ui.login.resta"
-            android:exported="false"
-            android:label="@string/title_activity_resta" />
-        <activity
-            android:name=".ui.login.Resta"
-            android:exported="false"
-            android:label="@string/title_activity_resta" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
