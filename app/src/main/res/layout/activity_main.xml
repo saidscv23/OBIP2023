@@ -69,6 +69,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="169dp"
         android:layout_marginBottom="65dp"
+        android:onClick="calcularSuma"
         android:text="Button" />
 
     <TextView
