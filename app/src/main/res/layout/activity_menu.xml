@@ -1,9 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#4d774e"
     tools:context=".menu">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button11"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="#E2D7E4"
+        android:text="INGRESAR" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="152dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="DIVISION"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F0F2F8"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="349dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="595dp"
+        android:fontFamily="sans-serif-black"
+        android:text="OPERACIONES MATEMATICAS"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#F0F2F8"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="562dp"
+        android:fontFamily="sans-serif-black"
+        android:text="BASICAS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#F0F2F8"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="404dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="SUMA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F0F2F8"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="315dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="RESTA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F0F2F8"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="197dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="237dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="MULTIPLICACION"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F0F2F8"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="408dp"
+        android:backgroundTint="#E2D7E4"
+        android:text="INGRESAR"
+        app:rippleColor="#E91E63" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="318dp"
+        android:backgroundTint="#E2D7E4"
+        android:text="INGRESAR" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="228dp"
+        android:backgroundTint="#E2D7E4"
+        android:text="INGRESAR" />
+
+</RelativeLayout>
