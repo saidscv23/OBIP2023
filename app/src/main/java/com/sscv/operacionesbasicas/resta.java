@@ -15,9 +15,9 @@ public class resta extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resta);
-        edNumR1=findViewById(R.id.numR);
-        edNumR2=findViewById(R.id.numR2);
-        tvResultadoR=findViewById(R.id.lblresultadoR);
+        edNumR1=findViewById(R.id.numD);
+        edNumR2=findViewById(R.id.numD2);
+        tvResultadoR=findViewById(R.id.lblresultadoD);
     }
 
     public void calcularResta(View v){

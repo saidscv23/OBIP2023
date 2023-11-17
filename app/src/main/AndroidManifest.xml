@@ -13,8 +13,10 @@
         android:theme="@style/Theme.OperacionesBasicas"
         tools:targetApi="31">
         <activity
-            android:name=".menu"
-            android:exported="false" />
+
+            android:name=".MainActivity"
+            android:exported="false"/>
+
         <activity
             android:name=".division"
             android:exported="false" />
@@ -25,8 +27,9 @@
             android:name=".resta"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+
+            android:name=".menu"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

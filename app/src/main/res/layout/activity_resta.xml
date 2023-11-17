@@ -14,8 +14,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="155dp"
         android:layout_marginBottom="80dp"
-        android:onClick="calcularSuma"
-        android:text="Button" />
+        android:onClick="calcularResta"
+        android:text="Restar" />
 
     <TextView
         android:id="@+id/textView3"
@@ -51,7 +51,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/lblresultadoR"
+        android:id="@+id/lblresultadoD"
         android:layout_width="164dp"
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
@@ -60,7 +60,7 @@
         android:layout_marginBottom="183dp" />
 
     <EditText
-        android:id="@+id/numR"
+        android:id="@+id/numD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -71,7 +71,7 @@
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/numR2"
+        android:id="@+id/numD2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
