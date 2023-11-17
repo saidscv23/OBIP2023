@@ -52,5 +52,24 @@ public class menu extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+        Button buttonDivision = findViewById(R.id.botonDivision);
+
+        buttonDivision.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(menu.this, division.class);
+
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
     }
 }

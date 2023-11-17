@@ -11,14 +11,24 @@
         android:layout_height="match_parent">
 
         <Button
+            android:id="@+id/btnMenu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="168dp"
+            android:layout_marginBottom="114dp"
+            android:text="Menu" />
+
+        <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="165dp"
-            android:layout_marginBottom="99dp"
-            android:onClick="calcularResta"
+            android:layout_marginEnd="166dp"
+            android:layout_marginBottom="176dp"
+            android:onClick="calcularDivision"
             android:text="Dividir" />
 
         <TextView
@@ -27,8 +37,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="182dp"
-            android:layout_marginBottom="627dp"
+            android:layout_marginEnd="167dp"
+            android:layout_marginBottom="632dp"
             android:text="DIVISION"
             android:textSize="24sp" />
 
@@ -49,8 +59,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="163dp"
-            android:layout_marginBottom="385dp"
+            android:layout_marginEnd="182dp"
+            android:layout_marginBottom="384dp"
             android:text="Numero "
             android:textSize="20sp" />
 
@@ -60,8 +70,8 @@
             android:layout_height="50dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="103dp"
-            android:layout_marginBottom="183dp" />
+            android:layout_marginEnd="122dp"
+            android:layout_marginBottom="239dp" />
 
         <EditText
             android:id="@+id/numD"
@@ -69,8 +79,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="94dp"
-            android:layout_marginBottom="453dp"
+            android:layout_marginEnd="93dp"
+            android:layout_marginBottom="454dp"
             android:ems="10"
             android:inputType="text" />
 
@@ -80,8 +90,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="91dp"
-            android:layout_marginBottom="277dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="314dp"
             android:ems="10"
             android:inputType="text" />
 

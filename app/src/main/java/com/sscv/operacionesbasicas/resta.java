@@ -2,8 +2,10 @@ package com.sscv.operacionesbasicas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -26,6 +28,29 @@ public class resta extends AppCompatActivity {
         int num2=Integer.parseInt(edNumR2.getText().toString());
         double resultado=num1-num2;
         tvResultadoR.setText(resultado+"");
+
+
+
+
+
+        Button buttonMenu = findViewById(R.id.btnMenu3);
+
+        buttonMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(resta.this, menu.class);
+
+
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
 
 
 

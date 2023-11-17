@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".multiplicacion">
 
+    <Button
+        android:id="@+id/btnMenu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="136dp"
+        android:text="Menu" />
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -23,8 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="184dp"
-        android:layout_marginBottom="547dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="559dp"
         android:text="Numero "
         android:textSize="20sp" />
 
@@ -34,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="451dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="483dp"
         android:ems="10"
         android:inputType="text" />
 
@@ -45,8 +55,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="176dp"
-        android:layout_marginBottom="382dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="423dp"
         android:text="Numero "
         android:textSize="20sp" />
 
@@ -56,8 +66,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="93dp"
-        android:layout_marginBottom="291dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="355dp"
         android:ems="10"
         android:inputType="text"
         android:selectAllOnFocus="false" />
@@ -68,8 +78,9 @@
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="125dp"
-        android:layout_marginBottom="180dp" />
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="276dp"
+        android:lineSpacingExtra="20sp" />
 
     <Button
         android:id="@+id/button3"
@@ -77,8 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="152dp"
-        android:layout_marginBottom="108dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="213dp"
         android:onClick="calcularMultiplicacion"
         android:text="Multiplicar" />
 </RelativeLayout>
