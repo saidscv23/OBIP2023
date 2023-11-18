@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8FBC8F"
     tools:context=".division">
 
     <RelativeLayout
@@ -37,10 +38,11 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="167dp"
-            android:layout_marginBottom="632dp"
+            android:layout_marginEnd="138dp"
+            android:layout_marginBottom="620dp"
             android:text="DIVISION"
-            android:textSize="24sp" />
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView4"

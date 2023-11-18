@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8FBC8F"
     tools:context=".multiplicacion">
 
     <Button
@@ -12,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="173dp"
-        android:layout_marginBottom="136dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="149dp"
         android:text="Menu" />
 
     <TextView
@@ -22,10 +23,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="127dp"
-        android:layout_marginBottom="627dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="623dp"
         android:text="MULTIPLICAION"
-        android:textSize="24sp" />
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView7"
@@ -33,8 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="177dp"
-        android:layout_marginBottom="559dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="550dp"
         android:text="Numero "
         android:textSize="20sp" />
 
@@ -78,8 +80,8 @@
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="117dp"
-        android:layout_marginBottom="276dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="282dp"
         android:lineSpacingExtra="20sp" />
 
     <Button
@@ -88,8 +90,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="164dp"
-        android:layout_marginBottom="213dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="211dp"
         android:onClick="calcularMultiplicacion"
         android:text="Multiplicar" />
 </RelativeLayout>
